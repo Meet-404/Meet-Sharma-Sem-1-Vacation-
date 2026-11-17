@@ -1,0 +1,156 @@
+.header1{
+    display: flex;
+    border-radius: 10px;
+    border-collapse: collapse;
+    border: 1px solid rgba(10, 10, 10, 0.188);
+    flex-wrap: wrap;
+    box-shadow: 0 0 10px rgba(0,0,0,0,0.2);
+    background-color: rgba(74, 64, 90, 0.1);
+    flex-direction: row;
+    overflow:hidden;
+    letter-spacing: 3px;
+    
+
+}
+.header_home{
+    display: flex;
+    flex: 1;
+    text-align: left;
+    padding:40px;
+    font-family:"Michroma", sans-serif;
+    color:rgb(249, 0, 0);
+    font-size: larger;
+}
+.header_other{
+    padding-right: 60px;
+    padding-top: 40px;
+    text-align: right;
+    font-family:"Michroma", sans-serif;
+    color:rgb(249, 0, 0);
+    font-size: larger;
+}
+a{
+    color:rgb(255, 255, 255);
+    font-family:"Michroma", sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+
+.container{
+    padding:40px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: rgb(255, 252, 252);
+    color:cornsilk;
+    background: transparent;
+}
+.c_works{
+    opacity: 0;
+    margin:50px;
+    padding:40px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(rgba(73, 0, 0,1));
+    background-image: linear-gradient(rgba(37, 0, 31, 0.5),rgba(74, 64, 90, 0.2));
+    color:rgb(255, 255, 255);
+    transition: all 0.4s ease;
+}
+.c_works:hover{
+    transform: scale(1.01);
+}
+.c_about{
+    opacity: 0;
+    margin:50px;
+    padding:40px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(rgba(73, 0, 0,1));
+    background-image: linear-gradient(rgba(37, 0, 31, 0.5),rgba(74, 64, 90, 0.2));
+    font-family:"Michroma", sans-serif;
+    color:rgb(255, 253, 253);
+    transition: all 0.4s ease;
+}
+.c_about:hover{
+    transform: scale(1.01);
+}
+body{
+    background: transparent;
+}
+
+.video-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+.michroma-regular {
+  font-family: "Michroma", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 48px;
+  color:white;
+}
+.redaction-50-regular {
+  font-family: "Redaction 50", serif;
+  font-weight: 400;
+  font-style: normal;
+  color:white;
+  font-size: 24px;
+  text-align: center;
+}
+
+.redaction-50-bold {
+  font-family: "Redaction 50", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.redaction-50-regular-italic {
+  font-family: "Redaction 50", serif;
+  font-weight: 400;
+  font-style: italic;
+  color:white;
+}
+.image{
+    width:48%;
+    height:27%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    border:10px solid rgba(0, 0, 0, 0.253);
+    transition: all .3s ease;
+}
+.image:hover{
+    transform: scale(1.1);
+}
+.works{
+    margin:50px;
+    padding:40px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(rgba(73, 0, 0,1));
+    background-image: linear-gradient(rgba(37, 0, 31, 0.5),rgba(74, 64, 90, 0.2));
+    color:rgb(255, 255, 255);
+    transition: all 0.4s ease;
+
+}
+.works:hover{
+    transform: scale(1.01);
+}
+
+.about{
+    margin:50px;
+    padding:40px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(rgba(73, 0, 0,1));
+    background-image: linear-gradient(rgba(37, 0, 31, 0.5),rgba(74, 64, 90, 0.2));
+    font-family:"Michroma", sans-serif;
+    color:rgb(255, 253, 253);
+    transition: all 0.4s ease;
+}
+.about:hover{
+    transform: scale(1.01);
+}
+
